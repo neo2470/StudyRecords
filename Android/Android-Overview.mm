@@ -211,6 +211,28 @@
 </node>
 <node CREATED="1444919727972" ID="ID_883103851" MODIFIED="1445239019536" TEXT="Task &amp; Back Stack">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1445931791603" ID="ID_178547566" MODIFIED="1445931837278" TEXT="Structure">
+<node CREATED="1445931796208" ID="ID_1608539091" MODIFIED="1445931831421" TEXT="Stack - Last In, First Out"/>
+<node CREATED="1445931852088" ID="ID_1041887986" MODIFIED="1445931878340" TEXT="Activities in the stack are never rearranged">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node CREATED="1445933936000" ID="ID_1650990208" MODIFIED="1445933959905" TEXT="launchMode">
+<node CREATED="1445933961520" ID="ID_1965340444" MODIFIED="1445934008122" TEXT="andorid:launchMode">
+<node CREATED="1445934009136" ID="ID_1688375847" MODIFIED="1445934027017" TEXT="standard (default)">
+<node CREATED="1445937164647" ID="ID_969812399" MODIFIED="1445937480639" TEXT="The system creates a new instance of the activity in the task every time"/>
+</node>
+<node CREATED="1445934029280" ID="ID_598200367" MODIFIED="1445934038158" TEXT="singleTop">
+<node CREATED="1445937187272" ID="ID_451580708" MODIFIED="1445937439001" TEXT="If an instance of the activity already exists at the top of the current task, the system routes the intent to that instance through a call to its onNewIntent() method. If not, the system will create a new instance of the activity"/>
+</node>
+<node CREATED="1445934039927" ID="ID_154479805" MODIFIED="1445934051128" TEXT="singleTask">
+<node CREATED="1445937491765" ID="ID_1751291870" MODIFIED="1445937643043" TEXT="Just the same as singleTop when create activity, "/>
+</node>
+<node CREATED="1445934053111" ID="ID_620571349" MODIFIED="1445934058352" TEXT="singleInstance">
+<node CREATED="1445935116535" ID="ID_988516497" MODIFIED="1445941466036" TEXT="The activity is always the single and only member of its task; any activities started by this one open in a separate task"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1444919801963" ID="ID_42442169" MODIFIED="1445871679532" TEXT="Overview Screen">
 <font NAME="SansSerif" SIZE="12"/>
