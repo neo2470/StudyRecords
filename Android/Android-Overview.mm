@@ -282,6 +282,23 @@
 </node>
 <node CREATED="1427551634488" ID="ID_475535" MODIFIED="1445239019535" TEXT="Service">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1446085341622" ID="ID_1985340830" MODIFIED="1446086345263" TEXT="Forms">
+<node CREATED="1446085353150" ID="ID_365503337" MODIFIED="1446085356424" TEXT="Started">
+<node CREATED="1446085372246" ID="ID_495124158" MODIFIED="1446085407190" TEXT="started by startService()"/>
+<node CREATED="1446085409582" ID="ID_530393696" MODIFIED="1446085472038" TEXT="Usually, a started service performs a single operation and does return a result to the caller"/>
+<node CREATED="1446089902986" ID="ID_592244618" MODIFIED="1446089912989" TEXT="The service remains running until it stops itself with stopSelf() or another component stops it by calling stopService()"/>
+</node>
+<node CREATED="1446085357750" ID="ID_393873999" MODIFIED="1446089932859" TEXT="Bound">
+<node CREATED="1446085476613" ID="ID_8544458" MODIFIED="1446085487893" TEXT="bound by bindService()"/>
+<node CREATED="1446085489525" ID="ID_1615290353" MODIFIED="1446085639428" TEXT="A bound service offers a client-server interface that allows components to interact with the service, send requests, get results, and even do so across processes with interprocess communication (IPC)"/>
+<node CREATED="1446089934041" ID="ID_832210834" MODIFIED="1446089949880" TEXT="Te service runs only as long as the component is bound to it"/>
+</node>
+</node>
+<node CREATED="1446086326208" ID="ID_977434513" MODIFIED="1446086339674" TEXT="Lifecycle">
+<node CREATED="1446086638822" ID="ID_565665089" MODIFIED="1446086646301" TEXT="onStartCommand()"/>
+<node CREATED="1446086647750" ID="ID_441043022" MODIFIED="1446086654701" TEXT="onBind()"/>
+<node CREATED="1446089599491" ID="ID_616677658" MODIFIED="1446089603178" TEXT="onCreate()"/>
+</node>
 </node>
 <node CREATED="1427551663079" ID="ID_1253253143" MODIFIED="1445239019535" TEXT="Broadcast Receiver">
 <font NAME="SansSerif" SIZE="12"/>
